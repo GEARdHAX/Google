@@ -3,6 +3,12 @@
   outline: none;
 }
 
+/* Remove the tap highlight color for all elements */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
 /* width */
 ::-webkit-scrollbar {
  width: 0px;
