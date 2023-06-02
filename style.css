@@ -1,3 +1,8 @@
+/* Remove the blue outline for all elements */
+*:focus {
+  outline: none;
+}
+
 /* width */
 ::-webkit-scrollbar {
  width: 0px;
