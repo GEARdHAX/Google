@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/Google/google.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/Google/index.css">
+  <title>Google</title>
+</head>
+
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li>Gmail</li>
+      <li>Images</li>
+      <li><img style="width: 25px; filter: invert(100); padding-top: 7px;" src="https://i.ibb.co/6gnXgYx/grid.png" alt=""></li>
+      <li><img id="profile-pic"
+          style="width: 35px !important; border-radius: 100%; margin-right: 15px; margin-top: 7px; object-fit: cover; aspect-ratio: 1/1 !important;"
+          src="https://i.ibb.co/1m6hhCB/profile-google.png" alt=""></li>
+    </ul>
+        <div class="pop-up">
+      <h1 style="font-size: 11px; font-weight: 100;">Tap to Upload</h1>
+      <div class="arrow"></div>
+    </div>
+    <div class="container">
+      <label for="file">Upload Image</label>
+      <input style="display: none;" type="file" name="file" id="file">
+    </div>
+  </div>
+  <div class="box">
+    <div class="google"><a href="#"><img id="google" src="https://i.ibb.co/k33xwXB/google-logo.png" alt=""></a></div>
+    <div class="form">
+      <form action="" class="search-form" onsubmit="searchGoogle(event)">
+        <img id="search" src="https://i.ibb.co/4K4Ny4q/search.png" alt="">
+        <input placeholder="Search on Google" type="text" name="" id="" class="search-input">
+        <img id="mic" src="https://i.ibb.co/wJLvcYt/mic.png" alt="">
+      </form>
+    </div>
+    <div class="choice">
+      <button onclick="searchGoogle(event)" class="search-input">Google Search</button>
+      <button><a style="text-decoration: none; color: white;" href="https://www.google.com/doodles"> I'm feeling
+          lucky</a></button>
+    </div>
+    <div class="lang">
+      <h1 style="font-size: 15px; color: white; margin: 10px; font-weight: 100">Google offered in: </h1>
+      <li>हिन्दी</li>
+      <li>বাংলা</li>
+      <li>తెలుగు</li>
+      <li>मराठी</li>
+      <li>தமிழ்</li>
+      <li>ગુજરાતી</li>
+      <li>ಕನ್ನಡ</li>
+      <li>മലയാളം</li>
+      <li>ਪੰਜਾਬੀ</li>
+    </div>
+  </div>
+  <script src="/Google/index.mjs"></script>
+</body>
+</html>
