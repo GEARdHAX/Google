@@ -30,3 +30,7 @@ const input = document.querySelector("input");
 input.addEventListener("change", () => {
  image.src = URL.createObjectURL(input.files[0]);
 });
+
+document.addEventListener('contextmenu', function(e) {
+ e.preventDefault();
+});
