@@ -262,5 +262,6 @@ label {
  height: 0;
  border-left: 8px solid transparent;
  border-right: 8px solid transparent;
- border-bottom: 10px solid white;
+ border-bottom: 10px solid rgb(32, 33, 36);
+ box-shadow: 0px 0px 50px 15px rgba(0, 0, 0, 0.75);
 }
